@@ -27,7 +27,7 @@
   },
   "email": {
     "from_email": "",
-    "smtp_addr": "smtp.163.com",
+    "smtp_addr": "",
     "smtp_port": "25",
     "smtp_pass": "",
     "email_subject": "测试发送邮件"
@@ -40,8 +40,8 @@
     "sms_name": "测试名称",
     "template_code": "sss",
     "app_key": "id",
-    "app_secret": "secret",
-    "region_id": "cn-hangzhou",
+    "app_secret": "",
+    "region_id": "",
     "tpl_id"    : "",
     "key"   : ""
   }

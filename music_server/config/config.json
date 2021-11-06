@@ -1,0 +1,48 @@
+{
+  "listen": "0.0.0.0:8090",
+  "website": {
+    "website_name": "music",
+    "website_desc": "音乐应用",
+    "website_mode": "debug",
+    "website_log": "log_file",
+    "cors_example": ""
+  },
+  "session": {
+    "session_name": "music_session",
+    "session_secret": "yunsong",
+    "session_mode": "redis"
+  },
+  "mysql": {
+    "mysql_driver": "mysql",
+    "mysql_addr": "root@tcp(127.0.0.1:3306)/music_demo?charset=utf8",
+    "mysql_show": true
+  },
+  "redis": {
+    "redis_addr": "127.0.0.1:6379",
+    "redis_pwd": "",
+    "redis_hold": 604800
+  },
+  "rabbitmq": {
+    "rabbitmq_addr": "amqp://root:root@127.0.0.1:15672/imooc"
+  },
+  "email": {
+    "from_email": "",
+    "smtp_addr": "smtp.163.com",
+    "smtp_port": "25",
+    "smtp_pass": "",
+    "email_subject": "测试发送邮件"
+  },
+  "jwt": {
+    "jwt_key": "",
+    "issuer": ""
+  },
+  "alisms": {
+    "sms_name": "测试名称",
+    "template_code": "sss",
+    "app_key": "id",
+    "app_secret": "secret",
+    "region_id": "cn-hangzhou",
+    "tpl_id"    : "",
+    "key"   : ""
+  }
+}
